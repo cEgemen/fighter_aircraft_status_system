@@ -1,0 +1,19 @@
+
+.container{
+        width: 1000px;
+        height:800px;
+        background-color: black;
+        display: flex;
+}
+
+.containerLeftSide{
+        flex-grow: 1;
+        /* background-color: blueviolet; */
+}
+
+.containerRightSide{
+        flex-grow:1;
+         display: flex;
+         flex-direction: column;
+        /* background-color: blue; */
+}
